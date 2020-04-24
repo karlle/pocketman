@@ -28,6 +28,8 @@ class View():
         self.standing_player = pygame.image.load('resources/images/player/standing.png').convert_alpha()
 
         pygame.init()
+        pygame.display.set_caption('POCKET MAN')
+
 
 
     """
